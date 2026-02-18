@@ -87,14 +87,14 @@ Orders above €2000 were subject to 5% tax:
 
 # 5. Aggregation & KPI Construction
 
-🔹 Total Q1 Sales by Year
+•	Total Q1 Sales by Year
 ```excel
 =SUMIFS(R2:R246, L2:L246, 2022)
 =SUMIFS(R2:R246, L2:L246, 2023)
 ```
 Using conditional aggregation enabled structured yearly comparisons.
 
-🔹 Monthly Breakdown (January–March)
+•	Monthly Breakdown (January–March)
 Example (January 2022):
 ```excel
 =SUMIFS($R$2:$R$103, $K$2:$K$103, 1)
